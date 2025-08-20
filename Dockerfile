@@ -6,7 +6,7 @@ ARG BUILDPLATFORM
 
 WORKDIR /src                                                                    
 COPY ./src ./
-
+#hihi
 # build solution   
 RUN dotnet build NopCommerce.sln --no-incremental -c Release
 
