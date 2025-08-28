@@ -998,34 +998,25 @@ label, label + * {
 }
 
 .header-lower {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px; /* tạo khoảng cách đẹp */
-  background: #fff;
+  position: relative;
+  z-index: 0;
+  padding: 35px 0;
 }
 
-.centered-logo {
-   display: flex;
-  align-items: center;hiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
+.header-logo {
+  margin: 0 0 20px;
+  text-align: center;
 }
 
-.centered-logo a {
+.header-logo a {
   display: inline-block;
   max-width: 100%;
   line-height: 0; /*firefox line-height bug fix*/
 }
 
-.centered-logo a img {
- height: 80px; /* Bạn có thể chỉnh thấp hơn để cân */
-  border-radius: 50%;
-  display: block;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-@media (max-width: 768px) {
-.centered-logo a img {
-     max-width: 100px; /* nhỏ hơn trên mobile */
-  }
+.header-logo a img {
+  max-width: 100%; 
+  opacity: 1;
 }
 /* Search box */
 
@@ -1048,7 +1039,7 @@ label, label + * {
 
 .search-box .search-box-button {
   min-width: 86px;
-  height: 40px;
+  height: 36px;
   border: none;
   background-color: #4ab2f1;
   padding: 0 15px;
