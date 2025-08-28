@@ -1001,18 +1001,13 @@ label, label + * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px; 
-  padding: 0 20px; /* tạo khoảng cách đẹp */
+  padding: 10px 20px; /* tạo khoảng cách đẹp */
   background: #fff;
 }
 
 .centered-logo {
-  margin: 0; display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px; /* tạo khoảng cách đẹp */
-  background: #fff;
-  padding: 0;  /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
+   display: flex;
+  align-items: center;hiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
 }
 
 .centered-logo a {
@@ -1022,13 +1017,10 @@ label, label + * {
 }
 
 .centered-logo a img {
-  width: auto;       /* Nhỏ hơn để không bị lấn */
-  height: 60px;
+ height: 80px; /* Bạn có thể chỉnh thấp hơn để cân */
   border-radius: 50%;
-  margin: 0;
-  padding: 0;
   display: block;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 768px) {
 .centered-logo a img {
@@ -1056,13 +1048,14 @@ label, label + * {
 
 .search-box .search-box-button {
   min-width: 86px;
-  height: 36px;
+  height: 40px;
   border: none;
   background-color: #4ab2f1;
   padding: 0 15px;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
+  line-height: 36px;
 }
 
 .search-box .search-box-button:hover,
