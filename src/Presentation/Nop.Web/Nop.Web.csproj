@@ -111,4 +111,6 @@
       More details here: https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals#concurrent-garbage-collection-->
     <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
   </PropertyGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="https://www.schemastore.org/appsettings.json" /></VisualStudio></ProjectExtensions>
 </Project>
