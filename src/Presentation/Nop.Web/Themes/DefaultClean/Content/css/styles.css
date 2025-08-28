@@ -1001,7 +1001,7 @@ label, label + * {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; /* tạo khoảng cách đẹp */
+  padding: 0 20px; /* tạo khoảng cách đẹp */
   background: #fff;
 }
 
