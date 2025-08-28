@@ -1018,7 +1018,7 @@ label, label + * {
 }
 
 .centered-logo a img {
-  width: 250px;       /* Nhỏ hơn để không bị lấn */
+  width: 100px;       /* Nhỏ hơn để không bị lấn */
   height: auto;
   border-radius: 50%;
   opacity: 1;
