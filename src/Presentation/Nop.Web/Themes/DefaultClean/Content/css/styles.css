@@ -1008,7 +1008,7 @@ label, label + * {
   margin: 0;     /* cách trái và phải khoảng 20px cho đẹp */
   display: flex;
   align-items: center; /* căn giữa theo chiều dọc */
-  height: 60px;       /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
+  height: 20px;       /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
 }
 
 .centered-logo a {
@@ -1018,7 +1018,7 @@ label, label + * {
 }
 
 .centered-logo a img {
-  width: 100px;       /* Nhỏ hơn để không bị lấn */
+  width: 250px;       /* Nhỏ hơn để không bị lấn */
   height: auto;
   border-radius: 50%;
   opacity: 1;
