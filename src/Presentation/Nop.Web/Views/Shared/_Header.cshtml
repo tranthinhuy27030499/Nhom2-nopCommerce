@@ -13,16 +13,16 @@
             @await Component.InvokeAsync(typeof(FlyoutShoppingCartViewComponent))
         </div>
  </div>
+ <div class="header-lower">
 <!-- Logo đặt dưới dropdown tiền tệ/ngôn ngữ -->
 <div class="centered-logo">
     @await Component.InvokeAsync(typeof(LogoViewComponent))
 </div>
-@await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderMiddle })
-<div class="header-lower">
     <div class="search-box store-search-box">
-        @await Component.InvokeAsync(typeof(SearchBoxViewComponent))
+    @await Component.InvokeAsync(typeof(SearchBoxViewComponent))
     </div>
 </div>
+@await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderMiddle })
 @await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderAfter })
 </div>
 
