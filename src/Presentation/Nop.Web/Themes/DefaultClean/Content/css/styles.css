@@ -1004,12 +1004,12 @@ label, label + * {
 }
 
 .centered-logo {
-  position: fixed;
   top: 10px;         /* Giảm khoảng cách trên */
   left: 10px;        /* Dịch sát vào trong hơn */
   z-index: 1000;     /* Cho nổi lên trên menu */
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
+  max-width: 200px; /* giới hạn độ rộng của container logo */
 }
 
 .centered-logo a {
@@ -1019,17 +1019,15 @@ label, label + * {
 }
 
 .centered-logo a img {
-  width: 200px;       /* Nhỏ hơn để không bị lấn */
+  width: 100px;       /* Nhỏ hơn để không bị lấn */
   height: auto;
   border-radius: 50%;
-  object-fit: cover;
   opacity: 1;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 @media (max-width: 768px) {
- .header-logo a img {
-    width: 40px;
-    height: 40px;
+.centered-logo a img {
+     max-width: 100px; /* nhỏ hơn trên mobile */
   }
 }
 /* Search box */
