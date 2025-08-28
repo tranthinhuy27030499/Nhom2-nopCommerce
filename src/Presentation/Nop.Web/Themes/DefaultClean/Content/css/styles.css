@@ -1004,12 +1004,11 @@ label, label + * {
 }
 
 .centered-logo {
-  top: 10px;         /* Giảm khoảng cách trên */
-  left: 10px;        /* Dịch sát vào trong hơn */
-  z-index: 1000;     /* Cho nổi lên trên menu */
-  margin: 10px auto;
-  text-align: center;
-  max-width: 200px; /* giới hạn độ rộng của container logo */
+  position: relative; /* để dễ điều chỉnh vị trí */
+  margin: 0 20px;     /* cách trái và phải khoảng 20px cho đẹp */
+  display: flex;
+  align-items: center; /* căn giữa theo chiều dọc */
+  height: 60px;       /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
 }
 
 .centered-logo a {
