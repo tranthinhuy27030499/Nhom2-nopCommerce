@@ -998,13 +998,19 @@ label, label + * {
 }
 
 .header-lower {
-  position: relative;
-  z-index: 0;
-  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* tạo khoảng cách đẹp */
+  background: #fff;
 }
 
 .centered-logo {
-  margin: 0;
+  margin: 0; display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* tạo khoảng cách đẹp */
+  background: #fff;
   padding: 0;  /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
 }
 
