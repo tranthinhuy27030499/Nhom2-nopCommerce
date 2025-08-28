@@ -1009,7 +1009,7 @@ label, label + * {
   display: flex;
   align-items: flex-end; /* căn giữa theo chiều dọc */
   height: 100px;  
-  top: 15px;     /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
+  top: 100px;     /* chiều cao của header logo, bạn chỉnh phù hợp */* giới hạn độ rộng của container logo */
 }
 
 .centered-logo a {
