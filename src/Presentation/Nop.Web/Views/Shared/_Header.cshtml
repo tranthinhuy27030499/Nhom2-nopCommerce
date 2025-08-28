@@ -12,15 +12,17 @@
             @await Component.InvokeAsync(typeof(HeaderLinksViewComponent))
             @await Component.InvokeAsync(typeof(FlyoutShoppingCartViewComponent))
         </div>
-    </div>
-    @await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderMiddle })
-    <div class="header-lower">
-        <div class="header-logo">
-            @await Component.InvokeAsync(typeof(LogoViewComponent))
-        </div>
-        <div class="search-box store-search-box">
-            @await Component.InvokeAsync(typeof(SearchBoxViewComponent))
-        </div>
-    </div>
-    @await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderAfter })
+ </div>
+<!-- Logo đặt dưới dropdown tiền tệ/ngôn ngữ -->
+<div class="centered-logo">
+    @await Component.InvokeAsync(typeof(LogoViewComponent))
 </div>
+@await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderMiddle })
+<div class="header-lower">
+    <div class="search-box store-search-box">
+        @await Component.InvokeAsync(typeof(SearchBoxViewComponent))
+    </div>
+</div>
+@await Component.InvokeAsync(typeof(WidgetViewComponent), new { widgetZone = PublicWidgetZones.HeaderAfter })
+</div>
+
