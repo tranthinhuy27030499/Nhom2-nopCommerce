@@ -1021,8 +1021,8 @@ label, label + * {
 }
 
 .centered-logo a img {
-  width: 100px;       /* Nhỏ hơn để không bị lấn */
-  height: auto;
+  width: auto;       /* Nhỏ hơn để không bị lấn */
+  height: 40px;
   border-radius: 50%;
   opacity: 1;
   margin: 0;
