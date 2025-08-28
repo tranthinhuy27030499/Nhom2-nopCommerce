@@ -1005,9 +1005,9 @@ label, label + * {
 
 .header-logo {
   position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 9999;
+  top: 10px;         /* Giảm khoảng cách trên */
+  left: 10px;        /* Dịch sát vào trong hơn */
+  z-index: 1000;     /* Cho nổi lên trên menu */
   margin: 0;
   text-align: center;
 }
@@ -1019,8 +1019,8 @@ label, label + * {
 }
 
 .header-logo a img {
-  width: 60px; /* hoặc 50px, 80px tuỳ bạn */
-  height: 60px;
+  width: 50px;       /* Nhỏ hơn để không bị lấn */
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
   opacity: 1;
