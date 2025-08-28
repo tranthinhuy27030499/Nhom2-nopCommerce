@@ -1004,7 +1004,11 @@ label, label + * {
 }
 
 .header-logo {
-  margin: 0 0 20px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+  margin: 0;
   text-align: center;
 }
 
@@ -1015,10 +1019,19 @@ label, label + * {
 }
 
 .header-logo a img {
-  max-width: 100%;
+  width: 60px; /* hoặc 50px, 80px tuỳ bạn */
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
   opacity: 1;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
-
+@media (max-width: 768px) {
+ .header-logo a img {
+    width: 40px;
+    height: 40px;
+  }
+}
 /* Search box */
 
 .search-box form {
