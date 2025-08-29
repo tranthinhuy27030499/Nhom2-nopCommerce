@@ -814,7 +814,7 @@ label, label + * {
 
 .ui-dialog-content .back-in-stock-subscription-page .button-1:hover,
 .ui-dialog-content .back-in-stock-subscription-page .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .eu-cookie-bar-notification {
@@ -849,7 +849,7 @@ label, label + * {
 
 .eu-cookie-bar-notification button:hover,
 .eu-cookie-bar-notification button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .eu-cookie-bar-notification a {
@@ -1051,7 +1051,7 @@ label, label + * {
 
 .search-box .search-box-button:hover,
 .search-box .search-box-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .search-box .ui-autocomplete-loading {
@@ -1248,7 +1248,7 @@ label, label + * {
 
 .newsletter-subscribe-button:hover,
 .newsletter-subscribe-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .newsletter-email .options {
@@ -1580,7 +1580,7 @@ label, label + * {
 
 .contact-vendor .button-2:hover,
 .contact-vendor .button-2:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .product-selectors {
@@ -1769,7 +1769,7 @@ label, label + * {
 
 .item-box .product-title a:hover,
 .item-box .product-title a:focus {
-  color: #FFE5A3;
+  color: #F6C667;
 }
 
 .item-box .sku {
@@ -1862,7 +1862,7 @@ label, label + * {
 
 .item-box .product-box-add-to-cart-button:hover,
 .item-box .product-box-add-to-cart-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .item-box .add-to-compare-list-button,
@@ -2521,7 +2521,7 @@ label, label + * {
 .overview .add-to-cart-button:focus,
 .variant-overview .add-to-cart-button:hover,
 .variant-overview .add-to-cart-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .product-share-button {
@@ -3090,7 +3090,7 @@ label, label + * {
 
 .write-review .button-1:hover,
 .write-review .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .product-reviews .result,
@@ -3247,7 +3247,7 @@ label, label + * {
 .wishlist-content .update-wishlist-button:focus,
 .wishlist-content .wishlist-add-to-cart-button:hover,
 .wishlist-content .wishlist-add-to-cart-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .wishlist-content .email-a-friend-wishlist-button {
@@ -3317,7 +3317,7 @@ label, label + * {
 
 .add-wishlist-content .wishlist-add-custom-button:hover,
 .add-wishlist-content .wishlist-add-custom-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .button-row {
@@ -3375,7 +3375,7 @@ label, label + * {
 
 .compare-products-page .clear-list:hover,
 .compare-products-page .clear-list:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .compare-products-page .table-wrapper {
@@ -3555,7 +3555,7 @@ label, label + * {
 
 .enter-password-form button[type="submit"]:hover,
 .enter-password-form button[type="submit"]:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 
@@ -3597,7 +3597,7 @@ label, label + * {
 .email-a-friend-page .button-1:focus,
 .apply-vendor-page .button-1:hover,
 .apply-vendor-page .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .contact-page .topic-block,
@@ -3733,7 +3733,7 @@ label, label + * {
 .account-page .button-1:focus,
 .return-request-page .button-1:hover,
 .return-request-page .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .return-request-page h1 a {
@@ -4336,7 +4336,7 @@ label, label + * {
 
 .shopping-cart-page .common-buttons button:first-child:hover,
 .shopping-cart-page .common-buttons button:first-child:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .checkout-attributes {
@@ -4493,7 +4493,7 @@ label, label + * {
 
 .cart-footer .checkout-button:hover,
 .cart-footer .checkout-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .cart-footer .addon-buttons {
@@ -4924,7 +4924,7 @@ label, label + * {
 
 .checkout-page .button-1:hover,
 .checkout-page .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .checkout-page .address-item {
@@ -5212,7 +5212,7 @@ label, label + * {
 }
 
 .opc .allow .step-title .number {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .opc .step {
@@ -5330,7 +5330,7 @@ label, label + * {
 
 .order-details-page .page-title a.print-order-button:hover,
 .order-details-page .page-title a.print-order-button:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .order-details-page .order-overview {
@@ -5364,7 +5364,7 @@ label, label + * {
 
 .order-details-page .repost .button-2:hover,
 .order-details-page .repost .button-2:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .order-details-page .download a {
@@ -5396,7 +5396,7 @@ label, label + * {
 
 .user-agreement-page .button-1:hover,
 .user-agreement-page .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .order-details-page .tax-shipping-info {
@@ -5440,7 +5440,7 @@ label, label + * {
 
 .order-details-page .actions button:first-child:hover,
 .order-details-page .actions button:first-child:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .order-details-page .totals.section {
@@ -5508,7 +5508,7 @@ label, label + * {
 
 .search-input .button-1:hover,
 .search-input .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .search-results {
@@ -5732,7 +5732,7 @@ label, label + * {
 .blog-posts .buttons .read-more:focus,
 .news-items .buttons .read-more:hover,
 .news-items .buttons .read-more:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .new-comment {
@@ -5763,7 +5763,7 @@ label, label + * {
 
 .new-comment .button-1:hover,
 .new-comment .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .comment-list {
@@ -6047,7 +6047,7 @@ label, label + * {
 
 .forums-table-section .view-all a:hover,
 .forums-table-section .view-all a:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 /* forum-page, topic page */
@@ -6481,7 +6481,7 @@ label, label + * {
 .move-topic-page .buttons .button-1:focus,
 .private-messages .buttons .button-1:hover,
 .private-messages .buttons .button-1:focus {
-  background-color: #FFE5A3;
+  background-color: #F6C667;
 }
 
 .private-message-send-page a {
@@ -8174,7 +8174,7 @@ label, label + * {
 
   .mini-shopping-cart .name a:hover,
   .mini-shopping-cart .name a:focus {
-    color: #FFE5A3;
+    color: #F6C667;
   }
 
   .mini-shopping-cart .attributes {
@@ -8208,7 +8208,7 @@ label, label + * {
 
   .mini-shopping-cart button[type="button"]:hover,
   .mini-shopping-cart button[type="button"]:focus {
-    background-color: #FFE5A3;
+    background-color: #F6C667;
   }
 
   .header-lower {
