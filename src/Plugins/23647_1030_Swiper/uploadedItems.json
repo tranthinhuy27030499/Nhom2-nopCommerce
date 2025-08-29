@@ -1,0 +1,9 @@
+[
+  {
+    "Type": "Plugin",
+    "SystemName": "Widgets.Swiper",
+    "SupportedVersion": "4.80",
+    "DirectoryPath": "Swiper/nopCommerce-4.80/Widgets.Swiper/",
+    "SourceDirectoryPath": "Swiper/nopCommerce-4.80/Nop.Plugin.Widgets.Swiper/"
+  }
+]
